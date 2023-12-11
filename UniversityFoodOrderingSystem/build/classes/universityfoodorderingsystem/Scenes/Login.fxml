@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="universityfoodorderingsystem.Scenes.LoginController">
+   <children>
+      <AnchorPane layoutX="227.0" layoutY="161.0" prefHeight="240.0" prefWidth="345.0" style="-fx-background-color: #dde; -fx-background-radius: 10;">
+         <children>
+            <ComboBox fx:id="typeCombo" layoutX="128.0" layoutY="32.0" prefWidth="150.0" />
+            <Label layoutX="55.0" layoutY="36.0" text="User Type" />
+            <TextField fx:id="usernameInput" layoutX="128.0" layoutY="76.0" text="mahmudul" />
+            <TextField fx:id="paswardInput" layoutX="128.0" layoutY="117.0" text="1122" />
+            <Label layoutX="56.0" layoutY="80.0" text="UserName" />
+            <Label layoutX="56.0" layoutY="121.0" text="Passward" />
+            <Button layoutX="128.0" layoutY="153.0" mnemonicParsing="false" onAction="#LoginBtnOncCick" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #995;" text="Log in" textFill="WHITE" />
+            <Button layoutX="129.0" layoutY="191.0" mnemonicParsing="false" onAction="#SignUpBtnOncCick" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #9950; -fx-border-color: #666; -fx-border-radius: 4;" text="Sign up request" />
+         </children>
+      </AnchorPane>
+      <Label contentDisplay="CENTER" layoutX="209.0" layoutY="99.0" prefHeight="25.0" prefWidth="382.0" text="University Food Ordering System" textAlignment="CENTER" textFill="#738d40">
+         <font>
+            <Font name="Cooper Black" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

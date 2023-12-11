@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="universityfoodorderingsystem.Scenes.Admin_topupReqsController">
+   <children>
+      <TableView fx:id="reqTable" layoutX="86.0" layoutY="58.0" prefHeight="312.0" prefWidth="482.0">
+        <columns>
+          <TableColumn fx:id="customerIdCol" prefWidth="92.0" text="Customer ID" />
+          <TableColumn fx:id="nameCol" minWidth="0.0" prefWidth="146.0" text="Name" />
+            <TableColumn fx:id="ammountCol" minWidth="0.0" prefWidth="94.0" text="Ammount" />
+            <TableColumn fx:id="actionCol" prefWidth="144.0" text="action" />
+        </columns>
+      </TableView>
+      <Label layoutX="261.0" layoutY="30.0" text="TopUp page" />
+   </children>
+</AnchorPane>

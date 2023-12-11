@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="universityfoodorderingsystem.Scenes.DeliveryRunner_DashboardController">
+   <children>
+      <BorderPane fx:id="borderpane" layoutX="22.0" layoutY="26.0" prefHeight="460.0" prefWidth="757.0">
+         <bottom>
+            <AnchorPane prefHeight="41.0" prefWidth="757.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <left>
+            <AnchorPane prefHeight="419.0" prefWidth="154.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="14.0" layoutY="29.0" mnemonicParsing="false" onAction="#ViewDeliveries" text="View  Deliveries" />
+                  <Button layoutX="14.0" layoutY="69.0" mnemonicParsing="false" onAction="#DeliveryHistory" text="Delivery History" />
+               </children>
+            </AnchorPane>
+         </left>
+         <top>
+            <AnchorPane prefHeight="52.0" prefWidth="757.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="RunnerName" layoutX="568.0" layoutY="8.0" prefHeight="17.0" prefWidth="106.0" text="NAME" textFill="#8c8673" />
+                  <Button layoutX="686.0" layoutY="4.0" mnemonicParsing="false" onAction="#LogOutBtn" style="-fx-background-color: #fff;" text="Log out" />
+                  <Label layoutX="277.0" layoutY="8.0" text="Delivery Runner dashboard" />
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

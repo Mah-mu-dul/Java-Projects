@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SceneChanginginwith4types.jnlp">
+  <information>
+    <title>SceneChanginginwith4types</title>
+    <vendor>hp</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SceneChanginginwith4types.jar" size="17140" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="scenechanginginwith4types.SceneChanginginwith4types"  name="SceneChanginginwith4types" />
+  <update check="always"/>
+</jnlp>

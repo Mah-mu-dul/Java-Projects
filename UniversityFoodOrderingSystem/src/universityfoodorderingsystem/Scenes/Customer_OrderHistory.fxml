@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="703.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="universityfoodorderingsystem.Scenes.Customer_OrderHistoryController">
+    <TableView fx:id="table" layoutX="16.0" layoutY="20.0" prefHeight="367.0" prefWidth="678.0">
+        <columns>
+            <TableColumn fx:id="orderIdCol" prefWidth="75.0" text="Order Id" />
+            <TableColumn fx:id="productIdCol" prefWidth="100.0" text="Product Id" />
+            <TableColumn fx:id="quantityCol" prefWidth="89.0" text="Quantity" />
+            <TableColumn fx:id="ptouctNameCol" prefWidth="119.0" text="Product Name" />
+            <TableColumn fx:id="customerIdCol" prefWidth="100.0" text="Customer Id" />
+            <TableColumn fx:id="totalPriceCol" prefWidth="95.0" text="Total Price" />
+            <TableColumn fx:id="DeliveryType" prefWidth="99.0" text="Delivery Type" />
+        </columns>
+    </TableView>
+</AnchorPane>

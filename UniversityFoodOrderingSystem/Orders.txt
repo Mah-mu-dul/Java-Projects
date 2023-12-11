@@ -1,0 +1,9 @@
+productId=1001, quantity=3, shopName=kashundi, customerId=mahmudul, status=Complete, deliveryType=Request For Delivery#hameem, orderid=1002
+productId=1001, quantity=6, shopName=kashundi, customerId=mahmudul, status=Complete, deliveryType=Request#hameem, orderid=1003
+productId=1001, quantity=3, shopName=kashundi, customerId=mahmudul, status=Complete, deliveryType=Takeaway#hameem, orderid=1004
+productId=6003, quantity=8, shopName=kashundi, customerId=mahmudul, status=Complete, deliveryType=Request For Delivery#hameem, orderid=1005
+productId=64505, quantity=4, shopName=kashundi, customerId=mahmudul, status=Complete, deliveryType=Request For Delivery#hameem, orderid=1006
+productId=1001, quantity=1, shopName=kashundi, customerId=mahmudul, status=placed, deliveryType=Request For Delivery, orderid=1007
+productId=1001, quantity=1, shopName=kashundi, customerId=mahmudul, status=placed, deliveryType=Request For Delivery, orderid=1008
+productId=1001, quantity=1, shopName=kashundi, customerId=mahmudul, status=placed, deliveryType=Request For Delivery, orderid=1009
+productId=6003, quantity=1, shopName=kashundi, customerId=mahmudul, status=placed, deliveryType=Request For Delivery, orderid=1010

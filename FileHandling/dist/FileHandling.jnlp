@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FileHandling.jnlp">
+  <information>
+    <title>FileHandling</title>
+    <vendor>hp</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FileHandling.jar" size="9583" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="mianpkg.FileHandling"  name="FileHandling" />
+  <update check="always"/>
+</jnlp>

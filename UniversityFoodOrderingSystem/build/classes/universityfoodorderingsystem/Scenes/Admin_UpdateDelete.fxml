@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="508.0" prefWidth="668.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="universityfoodorderingsystem.Scenes.Admin_UpdateDeleteController">
+   <children>
+      <TableView fx:id="table" layoutX="48.0" layoutY="90.0" prefHeight="360.0" prefWidth="572.0">
+        <columns>
+          <TableColumn fx:id="unameCol" prefWidth="84.0" text="User Name" />
+            <TableColumn fx:id="nameCol" prefWidth="169.0" text="Name" />
+            <TableColumn fx:id="extraFieldCol" prefWidth="129.0" text="Additional Info" />
+            <TableColumn fx:id="addedByCol" prefWidth="101.0" text="Added By" />
+            <TableColumn fx:id="actionCOl" prefWidth="88.0" text="Action" />
+        </columns>
+      </TableView>
+      <ComboBox fx:id="userTypeCombo" layoutX="259.0" layoutY="32.0" onAction="#ComboChange" prefWidth="150.0" />
+   </children>
+</AnchorPane>

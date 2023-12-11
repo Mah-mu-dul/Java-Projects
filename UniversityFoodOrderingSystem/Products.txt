@@ -1,0 +1,4 @@
+productId=1001<> stockQuantity=300<> name=Burger<> Description=onekk kichu<> supplyerUserName=kashundi<> price=300.0
+productId=6003<> stockQuantity=400<> name=Pizza<> Description=kichu ekta<> supplyerUserName=kashundi<> price=300.0
+productId=64505<> stockQuantity=500<> name=Chichek masala<> Description=onek kichu<> supplyerUserName=kashundi<> price=130.0
+productId=64506<> stockQuantity=200<> name=Dim khicuri<> Description=onek valo<> supplyerUserName=kashundi<> price=60.0
